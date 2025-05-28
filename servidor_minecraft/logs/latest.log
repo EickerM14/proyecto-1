@@ -1,78 +1,240 @@
-[20:06:31] [main/INFO]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 37.1.1, --fml.mcVersion, 1.17.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20210706.113038, nogui]
-[20:06:31] [main/INFO]: ModLauncher 9.0.7+91+master.8569cdf starting: java version 17.0.15 by Ubuntu
-[20:06:31] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=union:/workspaces/proyecto-1/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar%2319! Service=ModLauncher Env=SERVER
-[20:06:32] [main/INFO]: Found mod file fmlcore-1.17.1-37.1.1.jar of type LIBRARY with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@3b7ff809
-[20:06:32] [main/INFO]: Found mod file javafmllanguage-1.17.1-37.1.1.jar of type LANGPROVIDER with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@3b7ff809
-[20:06:32] [main/INFO]: Found mod file mclanguage-1.17.1-37.1.1.jar of type LANGPROVIDER with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@3b7ff809
-[20:06:32] [main/INFO]: Found mod file server-1.17.1-20210706.113038-srg.jar of type MOD with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@3b7ff809
-[20:06:32] [main/INFO]: Found mod file forge-1.17.1-37.1.1-universal.jar of type MOD with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@3b7ff809
-[20:06:33] [main/INFO]: Launching target 'forgeserver' with arguments [nogui]
-[20:06:39] [modloading-worker-0/INFO]: Forge mod loading, version 37.1.1, for MC 1.17.1 with MCP 20210706.113038
-[20:06:39] [modloading-worker-0/INFO]: MinecraftForge v37.1.1 Initialized
-[20:06:40] [Forge Version Check/INFO]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[20:06:41] [Forge Version Check/INFO]: [forge] Found status: UP_TO_DATE Current: 37.1.1 Target: null
-[20:06:43] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[20:06:44] [main/WARN]: Assets URL 'union:/workspaces/proyecto-1/servidor_minecraft/libraries/net/minecraft/server/1.17.1-20210706.113038/server-1.17.1-20210706.113038-srg.jar%2326!/assets/.mcassetsroot' uses unexpected schema
-[20:06:44] [main/WARN]: Assets URL 'union:/workspaces/proyecto-1/servidor_minecraft/libraries/net/minecraft/server/1.17.1-20210706.113038/server-1.17.1-20210706.113038-srg.jar%2326!/data/.mcassetsroot' uses unexpected schema
-[20:06:44] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[20:06:44] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[20:06:44] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[20:06:44] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[20:06:44] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[20:06:44] [main/INFO]: Reloading ResourceManager: Default, forge-1.17.1-37.1.1-universal.jar
-[20:06:46] [Worker-Main-5/INFO]: Loaded 7 recipes
-[20:06:48] [Worker-Main-5/INFO]: Loaded 1137 advancements
-[20:06:49] [main/INFO]: Injecting existing registry data into this CLIENT instance
-[20:06:50] [Server thread/INFO]: Starting minecraft server version 1.17.1
-[20:06:50] [Server thread/INFO]: Loading properties
-[20:06:50] [Server thread/INFO]: Default game type: SURVIVAL
-[20:06:50] [Server thread/INFO]: Generating keypair
-[20:06:51] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:06:51] [Server thread/INFO]: Using epoll channel type
-[20:06:51] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[20:06:51] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[20:06:51] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[20:06:51] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[20:06:51] [Server thread/INFO]: Preparing level "world"
-[20:06:51] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[20:06:52] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[20:06:56] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[20:06:56] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[20:06:56] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[20:06:56] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[20:06:56] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[20:06:56] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[20:06:56] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[20:06:56] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[20:06:56] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[20:06:56] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[20:06:57] [Worker-Main-4/INFO]: Preparing spawn area: 19%
-[20:06:57] [Worker-Main-4/INFO]: Preparing spawn area: 19%
-[20:06:58] [Worker-Main-5/INFO]: Preparing spawn area: 70%
-[20:06:58] [Worker-Main-6/INFO]: Preparing spawn area: 83%
-[20:06:59] [Worker-Main-6/INFO]: Preparing spawn area: 92%
-[20:06:59] [Worker-Main-4/INFO]: Preparing spawn area: 97%
-[20:07:00] [Worker-Main-6/INFO]: Preparing spawn area: 99%
-[20:07:00] [Server thread/INFO]: Time elapsed: 8626 ms
-[20:07:00] [Server thread/INFO]: Done (8.922s)! For help, type "help"
-[20:07:43] [Server thread/INFO]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@25e364e0
-[20:07:43] [Server thread/INFO]: EickerM14[/127.110.250.0:52399] logged in with entity id 169 at (192.64094824231609, 71.0, 179.27075252765476)
-[20:07:43] [Server thread/INFO]: EickerM14 joined the game
-[20:11:55] [Server thread/INFO]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@1f2f8c8c
-[20:11:55] [Server thread/INFO]: Edmy19[/127.24.205.114:51635] logged in with entity id 713 at (252.62545941362967, 63.0, 86.30000001192093)
-[20:11:55] [Server thread/INFO]: Edmy19 joined the game
-[20:16:21] [Server thread/INFO]: EickerM14 lost connection: Disconnected
-[20:16:21] [Server thread/INFO]: EickerM14 left the game
-[20:16:22] [Server thread/INFO]: Edmy19 lost connection: Disconnected
-[20:16:22] [Server thread/INFO]: Edmy19 left the game
-[20:16:39] [Server thread/INFO]: Stopping the server
-[20:16:39] [Server thread/INFO]: Stopping server
-[20:16:39] [Server thread/INFO]: Saving players
-[20:16:39] [Server thread/INFO]: Saving worlds
-[20:16:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[20:16:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[20:16:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[20:16:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[20:16:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20:16:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20:16:40] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20:25:12] [main/INFO]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 37.1.1, --fml.mcVersion, 1.17.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20210706.113038, nogui]
+[20:25:12] [main/INFO]: ModLauncher 9.0.7+91+master.8569cdf starting: java version 17.0.15 by Ubuntu
+[20:25:12] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=union:/workspaces/proyecto-1/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar%2319! Service=ModLauncher Env=SERVER
+[20:25:12] [main/INFO]: Found mod file BiomesOPlenty-1.17.1-14.0.0.43-universal.jar of type MOD with locator {mods folder locator at /workspaces/proyecto-1/servidor_minecraft/mods}
+[20:25:12] [main/INFO]: Found mod file enhancedcelestials-2.0.9-1.17.1.jar of type MOD with locator {mods folder locator at /workspaces/proyecto-1/servidor_minecraft/mods}
+[20:25:12] [main/INFO]: Found mod file gravestone-1.17.1-1.0.4.jar of type MOD with locator {mods folder locator at /workspaces/proyecto-1/servidor_minecraft/mods}
+[20:25:12] [main/INFO]: Found mod file jei-1.17.1-8.3.1.1002.jar of type MOD with locator {mods folder locator at /workspaces/proyecto-1/servidor_minecraft/mods}
+[20:25:12] [main/INFO]: Found mod file journeymap-1.17.1-5.8.0.jar of type MOD with locator {mods folder locator at /workspaces/proyecto-1/servidor_minecraft/mods}
+[20:25:12] [main/INFO]: Found mod file sophisticatedbackpacks-1.17.1-3.12.3.496.jar of type MOD with locator {mods folder locator at /workspaces/proyecto-1/servidor_minecraft/mods}
+[20:25:12] [main/INFO]: Found mod file fmlcore-1.17.1-37.1.1.jar of type LIBRARY with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@1af146
+[20:25:12] [main/INFO]: Found mod file javafmllanguage-1.17.1-37.1.1.jar of type LANGPROVIDER with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@1af146
+[20:25:12] [main/INFO]: Found mod file mclanguage-1.17.1-37.1.1.jar of type LANGPROVIDER with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@1af146
+[20:25:12] [main/INFO]: Found mod file server-1.17.1-20210706.113038-srg.jar of type MOD with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@1af146
+[20:25:12] [main/INFO]: Found mod file forge-1.17.1-37.1.1-universal.jar of type MOD with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@1af146
+[20:25:14] [main/INFO]: Launching target 'forgeserver' with arguments [nogui]
+[20:25:20] [modloading-worker-0/INFO]: Forge mod loading, version 37.1.1, for MC 1.17.1 with MCP 20210706.113038
+[20:25:20] [modloading-worker-0/INFO]: MinecraftForge v37.1.1 Initialized
+[20:25:22] [main/WARN]: Configuration file /workspaces/proyecto-1/servidor_minecraft/config/sophisticatedbackpacks-common.toml is not correct. Correcting
+[20:25:22] [main/WARN]: Incorrect key common was corrected from null to its default, SimpleCommentedConfig:{}. 
+[20:25:22] [main/WARN]: Incorrect key common.enabledItems was corrected from null to its default, []. 
+[20:25:22] [main/WARN]: Incorrect key common.leatherBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
+[20:25:22] [main/WARN]: Incorrect key common.leatherBackpack.inventorySlotCount was corrected from null to its default, 27. 
+[20:25:22] [main/WARN]: Incorrect key common.leatherBackpack.upgradeSlotCount was corrected from null to its default, 1. 
+[20:25:22] [main/WARN]: Incorrect key common.ironBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
+[20:25:22] [main/WARN]: Incorrect key common.ironBackpack.inventorySlotCount was corrected from null to its default, 54. 
+[20:25:22] [main/WARN]: Incorrect key common.ironBackpack.upgradeSlotCount was corrected from null to its default, 2. 
+[20:25:22] [main/WARN]: Incorrect key common.goldBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
+[20:25:22] [main/WARN]: Incorrect key common.goldBackpack.inventorySlotCount was corrected from null to its default, 81. 
+[20:25:22] [main/WARN]: Incorrect key common.goldBackpack.upgradeSlotCount was corrected from null to its default, 3. 
+[20:25:22] [main/WARN]: Incorrect key common.diamondBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
+[20:25:22] [main/WARN]: Incorrect key common.diamondBackpack.inventorySlotCount was corrected from null to its default, 108. 
+[20:25:22] [main/WARN]: Incorrect key common.diamondBackpack.upgradeSlotCount was corrected from null to its default, 5. 
+[20:25:22] [main/WARN]: Incorrect key common.netheriteBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
+[20:25:22] [main/WARN]: Incorrect key common.netheriteBackpack.inventorySlotCount was corrected from null to its default, 120. 
+[20:25:22] [main/WARN]: Incorrect key common.netheriteBackpack.upgradeSlotCount was corrected from null to its default, 7. 
+[20:25:22] [main/WARN]: Incorrect key common.compactingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[20:25:22] [main/WARN]: Incorrect key common.compactingUpgrade.filterSlots was corrected from null to its default, 9. 
+[20:25:22] [main/WARN]: Incorrect key common.compactingUpgrade.slotsInRow was corrected from null to its default, 3. 
+[20:25:22] [main/WARN]: Incorrect key common.advancedCompactingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[20:25:22] [main/WARN]: Incorrect key common.advancedCompactingUpgrade.filterSlots was corrected from null to its default, 16. 
+[20:25:22] [main/WARN]: Incorrect key common.advancedCompactingUpgrade.slotsInRow was corrected from null to its default, 4. 
+[20:25:22] [main/WARN]: Incorrect key common.depositUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[20:25:22] [main/WARN]: Incorrect key common.depositUpgrade.filterSlots was corrected from null to its default, 9. 
+[20:25:22] [main/WARN]: Incorrect key common.depositUpgrade.slotsInRow was corrected from null to its default, 3. 
+[20:25:22] [main/WARN]: Incorrect key common.advancedDepositUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[20:25:22] [main/WARN]: Incorrect key common.advancedDepositUpgrade.filterSlots was corrected from null to its default, 16. 
+[20:25:22] [main/WARN]: Incorrect key common.advancedDepositUpgrade.slotsInRow was corrected from null to its default, 4. 
+[20:25:22] [main/WARN]: Incorrect key common.feedingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[20:25:22] [main/WARN]: Incorrect key common.feedingUpgrade.filterSlots was corrected from null to its default, 9. 
+[20:25:22] [main/WARN]: Incorrect key common.feedingUpgrade.slotsInRow was corrected from null to its default, 3. 
+[20:25:22] [main/WARN]: Incorrect key common.advancedFeedingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[20:25:22] [main/WARN]: Incorrect key common.advancedFeedingUpgrade.filterSlots was corrected from null to its default, 16. 
+[20:25:22] [main/WARN]: Incorrect key common.advancedFeedingUpgrade.slotsInRow was corrected from null to its default, 4. 
+[20:25:22] [main/WARN]: Incorrect key common.filterUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[20:25:22] [main/WARN]: Incorrect key common.filterUpgrade.filterSlots was corrected from null to its default, 9. 
+[20:25:22] [main/WARN]: Incorrect key common.filterUpgrade.slotsInRow was corrected from null to its default, 3. 
+[20:25:22] [main/WARN]: Incorrect key common.advancedFilterUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[20:25:22] [main/WARN]: Incorrect key common.advancedFilterUpgrade.filterSlots was corrected from null to its default, 16. 
+[20:25:22] [main/WARN]: Incorrect key common.advancedFilterUpgrade.slotsInRow was corrected from null to its default, 4. 
+[20:25:22] [main/WARN]: Incorrect key common.magnetUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[20:25:22] [main/WARN]: Incorrect key common.magnetUpgrade.filterSlots was corrected from null to its default, 9. 
+[20:25:22] [main/WARN]: Incorrect key common.magnetUpgrade.slotsInRow was corrected from null to its default, 3. 
+[20:25:22] [main/WARN]: Incorrect key common.magnetUpgrade.magnetRange was corrected from null to its default, 3. 
+[20:25:22] [main/WARN]: Incorrect key common.advancedMagnetUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[20:25:22] [main/WARN]: Incorrect key common.advancedMagnetUpgrade.filterSlots was corrected from null to its default, 16. 
+[20:25:22] [main/WARN]: Incorrect key common.advancedMagnetUpgrade.slotsInRow was corrected from null to its default, 4. 
+[20:25:22] [main/WARN]: Incorrect key common.advancedMagnetUpgrade.magnetRange was corrected from null to its default, 5. 
+[20:25:22] [main/WARN]: Incorrect key common.pickupUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[20:25:22] [main/WARN]: Incorrect key common.pickupUpgrade.filterSlots was corrected from null to its default, 9. 
+[20:25:22] [main/WARN]: Incorrect key common.pickupUpgrade.slotsInRow was corrected from null to its default, 3. 
+[20:25:22] [main/WARN]: Incorrect key common.advancedPickupUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[20:25:22] [main/WARN]: Incorrect key common.advancedPickupUpgrade.filterSlots was corrected from null to its default, 16. 
+[20:25:22] [main/WARN]: Incorrect key common.advancedPickupUpgrade.slotsInRow was corrected from null to its default, 4. 
+[20:25:22] [main/WARN]: Incorrect key common.refillUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[20:25:22] [main/WARN]: Incorrect key common.refillUpgrade.filterSlots was corrected from null to its default, 6. 
+[20:25:22] [main/WARN]: Incorrect key common.refillUpgrade.slotsInRow was corrected from null to its default, 3. 
+[20:25:22] [main/WARN]: Incorrect key common.restockUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[20:25:22] [main/WARN]: Incorrect key common.restockUpgrade.filterSlots was corrected from null to its default, 9. 
+[20:25:22] [main/WARN]: Incorrect key common.restockUpgrade.slotsInRow was corrected from null to its default, 3. 
+[20:25:22] [main/WARN]: Incorrect key common.advancedRestockUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[20:25:22] [main/WARN]: Incorrect key common.advancedRestockUpgrade.filterSlots was corrected from null to its default, 16. 
+[20:25:22] [main/WARN]: Incorrect key common.advancedRestockUpgrade.slotsInRow was corrected from null to its default, 4. 
+[20:25:22] [main/WARN]: Incorrect key common.voidUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[20:25:22] [main/WARN]: Incorrect key common.voidUpgrade.filterSlots was corrected from null to its default, 9. 
+[20:25:22] [main/WARN]: Incorrect key common.voidUpgrade.slotsInRow was corrected from null to its default, 3. 
+[20:25:22] [main/WARN]: Incorrect key common.advancedVoidUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[20:25:22] [main/WARN]: Incorrect key common.advancedVoidUpgrade.filterSlots was corrected from null to its default, 16. 
+[20:25:22] [main/WARN]: Incorrect key common.advancedVoidUpgrade.slotsInRow was corrected from null to its default, 4. 
+[20:25:22] [main/WARN]: Incorrect key common.stackUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[20:25:22] [main/WARN]: Incorrect key common.stackUpgrade.nonStackableItems was corrected from null to its default, []. 
+[20:25:22] [main/WARN]: Incorrect key common.smeltingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[20:25:22] [main/WARN]: Incorrect key common.smeltingUpgrade.smeltingSpeedMultiplier was corrected from null to its default, 1.0. 
+[20:25:22] [main/WARN]: Incorrect key common.smeltingUpgrade.fuelEfficiencyMultiplier was corrected from null to its default, 1.0. 
+[20:25:22] [main/WARN]: Incorrect key common.autoSmeltingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[20:25:22] [main/WARN]: Incorrect key common.autoSmeltingUpgrade.smeltingSpeedMultiplier was corrected from null to its default, 1.0. 
+[20:25:22] [main/WARN]: Incorrect key common.autoSmeltingUpgrade.fuelEfficiencyMultiplier was corrected from null to its default, 1.0. 
+[20:25:22] [main/WARN]: Incorrect key common.autoSmeltingUpgrade.inputFilterSlots was corrected from null to its default, 8. 
+[20:25:22] [main/WARN]: Incorrect key common.autoSmeltingUpgrade.inputFilterSlotsInRow was corrected from null to its default, 4. 
+[20:25:22] [main/WARN]: Incorrect key common.autoSmeltingUpgrade.fuelFilterSlots was corrected from null to its default, 4. 
+[20:25:22] [main/WARN]: Incorrect key common.autoSmeltingUpgrade.fuelFilterSlotsInRow was corrected from null to its default, 4. 
+[20:25:22] [main/WARN]: Incorrect key common.inceptionUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[20:25:22] [main/WARN]: Incorrect key common.inceptionUpgrade.upgradesUseInventoriesOfBackpacksInBackpack was corrected from null to its default, true. 
+[20:25:22] [main/WARN]: Incorrect key common.inceptionUpgrade.upgradesInContainedBackpacksAreFunctional was corrected from null to its default, true. 
+[20:25:22] [main/WARN]: Incorrect key common.toolSwapperUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[20:25:22] [main/WARN]: Incorrect key common.toolSwapperUpgrade.filterSlots was corrected from null to its default, 8. 
+[20:25:22] [main/WARN]: Incorrect key common.toolSwapperUpgrade.slotsInRow was corrected from null to its default, 4. 
+[20:25:22] [main/WARN]: Incorrect key common.tankUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[20:25:22] [main/WARN]: Incorrect key common.tankUpgrade.capacityPerSlotRow was corrected from null to its default, 4000. 
+[20:25:22] [main/WARN]: Incorrect key common.tankUpgrade.stackMultiplierRatio was corrected from null to its default, 1.0. 
+[20:25:22] [main/WARN]: Incorrect key common.tankUpgrade.autoFillDrainContainerCooldown was corrected from null to its default, 20. 
+[20:25:22] [main/WARN]: Incorrect key common.tankUpgrade.maxInputOutput was corrected from null to its default, 20. 
+[20:25:22] [main/WARN]: Incorrect key common.tankUpgrade.energyPerSlotRow was corrected from null to its default, 10000. 
+[20:25:22] [main/WARN]: Incorrect key common.pumpUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[20:25:22] [main/WARN]: Incorrect key common.pumpUpgrade.filterSlots was corrected from null to its default, 4. 
+[20:25:22] [main/WARN]: Incorrect key common.pumpUpgrade.maxInputOutput was corrected from null to its default, 20. 
+[20:25:22] [main/WARN]: Incorrect key common.pumpUpgrade.stackMultiplierRatio was corrected from null to its default, 1.0. 
+[20:25:22] [main/WARN]: Incorrect key common.entityBackpackAdditions was corrected from null to its default, SimpleCommentedConfig:{}. 
+[20:25:22] [main/WARN]: Incorrect key common.entityBackpackAdditions.chance was corrected from null to its default, 0.01. 
+[20:25:22] [main/WARN]: Incorrect key common.entityBackpackAdditions.addLoot was corrected from null to its default, true. 
+[20:25:22] [main/WARN]: Incorrect key common.entityBackpackAdditions.buffWithPotionEffects was corrected from null to its default, true. 
+[20:25:22] [main/WARN]: Incorrect key common.entityBackpackAdditions.buffHealth was corrected from null to its default, true. 
+[20:25:22] [main/WARN]: Incorrect key common.entityBackpackAdditions.equipWithArmor was corrected from null to its default, true. 
+[20:25:22] [main/WARN]: Incorrect key common.entityBackpackAdditions.entityLootTableList was corrected from null to its default, [minecraft:creeper|minecraft:chests/desert_pyramid, minecraft:drowned|minecraft:chests/shipwreck_treasure, minecraft:enderman|minecraft:chests/end_city_treasure, minecraft:evoker|minecraft:chests/woodland_mansion, minecraft:husk|minecraft:chests/desert_pyramid, minecraft:piglin|minecraft:chests/bastion_bridge, minecraft:piglin_brute|minecraft:chests/bastion_treasure, minecraft:pillager|minecraft:chests/pillager_outpost, minecraft:skeleton|minecraft:chests/simple_dungeon, minecraft:stray|minecraft:chests/igloo_chest, minecraft:vex|minecraft:chests/woodland_mansion, minecraft:vindicator|minecraft:chests/woodland_mansion, minecraft:witch|minecraft:chests/buried_treasure, minecraft:wither_skeleton|minecraft:chests/nether_bridge, minecraft:zombie|minecraft:chests/simple_dungeon, minecraft:zombie_villager|minecraft:chests/village/village_armorer, minecraft:zombified_piglin|minecraft:chests/bastion_other]. 
+[20:25:22] [main/WARN]: Incorrect key common.entityBackpackAdditions.discBlockList was corrected from null to its default, [botania:record_gaia_1, botania:record_gaia_2]. 
+[20:25:22] [main/WARN]: Incorrect key common.entityBackpackAdditions.playJukebox was corrected from null to its default, true. 
+[20:25:22] [main/WARN]: Incorrect key common.chestLootEnabled was corrected from null to its default, true. 
+[20:25:22] [main/WARN]: Configuration file /workspaces/proyecto-1/servidor_minecraft/config/biomesoplenty/generation.toml is not correct. Correcting
+[20:25:22] [main/WARN]: Incorrect key overworld was corrected from null to its default, SimpleCommentedConfig:{}. 
+[20:25:22] [main/WARN]: Incorrect key overworld.biome_size was corrected from null to its default, MEDIUM. 
+[20:25:22] [main/WARN]: Incorrect key overworld.river_size was corrected from null to its default, MEDIUM. 
+[20:25:22] [main/WARN]: Incorrect key overworld.temperature_variation_scheme was corrected from null to its default, MEDIUM_ZONES. 
+[20:25:22] [main/WARN]: Incorrect key overworld.rainfall_variation_scheme was corrected from null to its default, MEDIUM_ZONES. 
+[20:25:22] [main/WARN]: Incorrect key overworld.enhance_vanilla_biomes was corrected from null to its default, true. 
+[20:25:22] [main/WARN]: Incorrect key overworld.use_bop_nether was corrected from null to its default, true. 
+[20:25:22] [main/INFO]: Initializing Packet Registries
+[20:25:23] [Forge Version Check/INFO]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[20:25:23] [Forge Version Check/INFO]: [forge] Found status: UP_TO_DATE Current: 37.1.1 Target: null
+[20:25:23] [Forge Version Check/INFO]: [gravestone] Starting version check at https://maxhenkel.de/update/gravestone.json
+[20:25:24] [Forge Version Check/INFO]: [gravestone] Found status: UP_TO_DATE Current: 1.17.1-1.0.4 Target: null
+[20:25:24] [Forge Version Check/INFO]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[20:25:24] [Forge Version Check/INFO]: [journeymap] Found status: UP_TO_DATE Current: 5.8.0 Target: null
+[20:25:27] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20:25:27] [main/WARN]: Assets URL 'union:/workspaces/proyecto-1/servidor_minecraft/libraries/net/minecraft/server/1.17.1-20210706.113038/server-1.17.1-20210706.113038-srg.jar%2332!/assets/.mcassetsroot' uses unexpected schema
+[20:25:27] [main/WARN]: Assets URL 'union:/workspaces/proyecto-1/servidor_minecraft/libraries/net/minecraft/server/1.17.1-20210706.113038/server-1.17.1-20210706.113038-srg.jar%2332!/data/.mcassetsroot' uses unexpected schema
+[20:25:28] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[20:25:28] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[20:25:28] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[20:25:28] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[20:25:28] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[20:25:28] [main/WARN]: Ambiguity between arguments [waypoint, create, name, dimension, location, color, announce] and [waypoint, create, name, dimension, location, color, player] with inputs: [true, false]
+[20:25:28] [main/WARN]: Ambiguity between arguments [waypoint, delete, name, announce] and [waypoint, delete, name, player] with inputs: [true, false]
+[20:25:28] [main/INFO]: Reloading ResourceManager: Default, forge-1.17.1-37.1.1-universal.jar, enhancedcelestials-2.0.9-1.17.1.jar, sophisticatedbackpacks-1.17.1-3.12.3.496.jar, BiomesOPlenty-1.17.1-14.0.0.43-universal.jar, gravestone-1.17.1-1.0.4.jar, journeymap-1.17.1-5.8.0.jar, jei-1.17.1-8.3.1.1002.jar
+[20:25:31] [Worker-Main-6/INFO]: Loaded 7 recipes
+[20:25:33] [Worker-Main-6/INFO]: Loaded 1389 advancements
+[20:25:33] [Worker-Main-6/ERROR]: No loader defined for tool_types
+[20:25:34] [main/INFO]: Injecting existing registry data into this CLIENT instance
+[20:25:36] [Server thread/INFO]: Starting minecraft server version 1.17.1
+[20:25:36] [Server thread/INFO]: Loading properties
+[20:25:36] [Server thread/INFO]: Default game type: SURVIVAL
+[20:25:36] [Server thread/INFO]: Generating keypair
+[20:25:36] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:25:36] [Server thread/INFO]: Using epoll channel type
+[20:25:36] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:25:36] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:25:36] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:25:36] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:25:36] [Server thread/WARN]: Configuration file ./world/serverconfig/gravestone-server.toml is not correct. Correcting
+[20:25:36] [Server thread/WARN]: Incorrect key enable_obituary was corrected from null to its default, true. 
+[20:25:36] [Server thread/WARN]: Incorrect key replaceable_blocks was corrected from null to its default, [#gravestone:grave_replaceable]. 
+[20:25:36] [Server thread/WARN]: Incorrect key remove_obituary was corrected from null to its default, false. 
+[20:25:36] [Server thread/WARN]: Incorrect key only_owners_can_break was corrected from null to its default, false. 
+[20:25:36] [Server thread/WARN]: Incorrect key spawn_ghost was corrected from null to its default, false. 
+[20:25:36] [Server thread/WARN]: Incorrect key friendly_ghost was corrected from null to its default, true. 
+[20:25:36] [Server thread/WARN]: Incorrect key sneak_pickup was corrected from null to its default, false. 
+[20:25:36] [Server thread/WARN]: Incorrect key break_pickup was corrected from null to its default, true. 
+[20:25:36] [Server thread/WARN]: Configuration file ./world/serverconfig/journeymap-server.toml is not correct. Correcting
+[20:25:36] [Server thread/WARN]: Incorrect key admins was corrected from null to its default, SimpleCommentedConfig:{}. 
+[20:25:36] [Server thread/WARN]: Incorrect key admins.opAccess was corrected from null to its default, true. 
+[20:25:36] [Server thread/WARN]: Incorrect key admins.serverAdmins was corrected from null to its default, [mysticdrew, 79f597fe-2877-4ecb-acdf-8c58cc1854ca]. 
+[20:25:36] [Thread-0/INFO]: Loading JourneyMap Forge Configs
+[20:25:36] [Thread-0/INFO]: Loading JourneyMap Forge Configs
+[20:25:36] [Server thread/INFO]: Loading JourneyMap Forge Configs
+[20:25:36] [Server thread/WARN]: Configuration file ./world/serverconfig/jei-server.toml is not correct. Correcting
+[20:25:36] [Server thread/WARN]: Incorrect key cheat mode was corrected from null to its default, SimpleCommentedConfig:{}. 
+[20:25:36] [Server thread/WARN]: Incorrect key cheat mode.enableCheatModeForOp was corrected from null to its default, true. 
+[20:25:36] [Server thread/WARN]: Incorrect key cheat mode.enableCheatModeForCreative was corrected from null to its default, true. 
+[20:25:36] [Server thread/WARN]: Incorrect key cheat mode.enableCheatModeForGive was corrected from null to its default, false. 
+[20:25:36] [Server thread/INFO]: Preparing level "world"
+[20:25:36] [Server thread/ERROR]: "enhancedcelestials:harvest_moon_crops" is not a valid item tag!
+[20:25:36] [Server thread/ERROR]: "enhancedcelestials:harvest_moon_crops" is not a valid item tag!
+[20:25:36] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:25:37] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[20:25:37] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[20:25:37] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[20:25:38] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[20:25:41] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[20:25:41] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[20:25:41] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[20:25:41] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[20:25:41] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[20:25:41] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[20:25:41] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[20:25:42] [Worker-Main-4/INFO]: Preparing spawn area: 2%
+[20:25:42] [Worker-Main-5/INFO]: Preparing spawn area: 20%
+[20:25:43] [Worker-Main-4/INFO]: Preparing spawn area: 75%
+[20:25:43] [Worker-Main-5/INFO]: Preparing spawn area: 86%
+[20:25:44] [Worker-Main-4/INFO]: Preparing spawn area: 95%
+[20:25:44] [Worker-Main-4/INFO]: Preparing spawn area: 96%
+[20:25:44] [Server thread/INFO]: Time elapsed: 8192 ms
+[20:25:44] [Server thread/INFO]: Done (8.602s)! For help, type "help"
+[20:25:44] [Server thread/INFO]: global (FirstLoaded) Setting config file to version "5.8.0": journeymap.server.global.config
+[20:25:44] [Server thread/INFO]: global (Valid) Creating config file: ./journeymap/server/5.8/journeymap.server.global.config
+[20:25:45] [Server thread/INFO]: default (FirstLoaded) Setting config file to version "5.8.0": journeymap.server.default.config
+[20:25:45] [Server thread/INFO]: default (Valid) Creating config file: ./journeymap/server/5.8/journeymap.server.default.config
+[20:25:45] [Server thread/INFO]: minecraft~overworld (Initialized) Setting config file to version "5.8.0": journeymap.server.minecraft~overworld.config
+[20:25:45] [Server thread/INFO]: minecraft~overworld (Valid) Creating config file: ./journeymap/server/5.8/journeymap.server.minecraft~overworld.config
+[20:25:45] [Server thread/INFO]: minecraft~the_nether (Initialized) Setting config file to version "5.8.0": journeymap.server.minecraft~the_nether.config
+[20:25:45] [Server thread/INFO]: minecraft~the_nether (Valid) Creating config file: ./journeymap/server/5.8/journeymap.server.minecraft~the_nether.config
+[20:25:45] [Server thread/INFO]: minecraft~the_end (Initialized) Setting config file to version "5.8.0": journeymap.server.minecraft~the_end.config
+[20:25:45] [Server thread/INFO]: minecraft~the_end (Valid) Creating config file: ./journeymap/server/5.8/journeymap.server.minecraft~the_end.config
+[20:30:15] [Netty Epoll Server IO #2/ERROR]: Channels [sophisticatedbackpacks:channel,enhancedcelestials:network] rejected their client side version number
+[20:30:15] [Netty Epoll Server IO #2/ERROR]: Terminating connection with client, mismatched mod list
+[20:30:15] [Server thread/INFO]: com.mojang.authlib.GameProfile@39d12d74[id=<null>,name=EickerM14,properties={},legacy=false] (/127.110.250.0:35785) lost connection: Connection closed - mismatched mod channel list
+[20:30:58] [Netty Epoll Server IO #4/ERROR]: Channels [sophisticatedbackpacks:channel,enhancedcelestials:network] rejected their client side version number
+[20:30:58] [Netty Epoll Server IO #4/ERROR]: Terminating connection with client, mismatched mod list
+[20:30:58] [Server thread/INFO]: com.mojang.authlib.GameProfile@9ee1d80[id=<null>,name=EickerM14,properties={},legacy=false] (/127.110.250.0:36369) lost connection: Connection closed - mismatched mod channel list
+[20:31:01] [Netty Epoll Server IO #5/ERROR]: Channels [sophisticatedbackpacks:channel,enhancedcelestials:network] rejected their client side version number
+[20:31:01] [Netty Epoll Server IO #5/ERROR]: Terminating connection with client, mismatched mod list
+[20:31:01] [Server thread/INFO]: com.mojang.authlib.GameProfile@5f2c780[id=<null>,name=EickerM14,properties={},legacy=false] (/127.110.250.0:50005) lost connection: Connection closed - mismatched mod channel list
+[20:31:51] [Server thread/INFO]: Stopping the server
+[20:31:52] [Server thread/INFO]: Stopping server
+[20:31:52] [Server thread/INFO]: Saving players
+[20:31:52] [Server thread/INFO]: Saving worlds
+[20:31:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20:31:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[20:31:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[20:31:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:31:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:31:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:31:52] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
