@@ -59,6 +59,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/paper": {
+    "criteria": {
+      "has_reeds": "2025-05-28 21:00:33 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/black_wool": {
     "criteria": {
       "has_white_wool": "2025-05-28 20:44:23 +0000"
@@ -281,11 +287,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/sugar_from_sugar_cane": {
+    "criteria": {
+      "has_sugar_cane": "2025-05-28 21:00:33 +0000"
+    },
+    "done": true
+  },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_mutton": "2025-05-28 20:46:47 +0000",
       "sweet_berries": "2025-05-28 20:40:10 +0000",
-      "rotten_flesh": "2025-05-28 20:38:14 +0000"
+      "rotten_flesh": "2025-05-28 20:38:14 +0000",
+      "cooked_chicken": "2025-05-28 20:58:58 +0000"
     },
     "done": false
   },
@@ -304,6 +317,12 @@
   "minecraft:recipes/redstone/tripwire_hook": {
     "criteria": {
       "has_string": "2025-05-28 20:56:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2025-05-28 21:00:17 +0000"
     },
     "done": true
   },

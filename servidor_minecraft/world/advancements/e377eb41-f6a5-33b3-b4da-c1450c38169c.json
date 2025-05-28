@@ -11,6 +11,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_chicken_from_smoking": {
+    "criteria": {
+      "has_chicken": "2025-05-28 20:58:15 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/wooden_axe": {
     "criteria": {
       "has_stick": "2025-05-28 20:38:00 +0000"
@@ -248,6 +254,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/arrow": {
+    "criteria": {
+      "has_feather": "2025-05-28 20:58:15 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/stick": {
     "criteria": {
       "has_planks": "2025-05-28 20:37:21 +0000"
@@ -263,6 +275,12 @@
   "minecraft:recipes/building_blocks/spruce_wood": {
     "criteria": {
       "has_log": "2025-05-28 20:35:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coal_block": {
+    "criteria": {
+      "has_coal": "2025-05-28 21:07:24 +0000"
     },
     "done": true
   },
@@ -360,6 +378,7 @@
     "criteria": {
       "cooked_mutton": "2025-05-28 20:47:32 +0000",
       "sweet_berries": "2025-05-28 20:55:15 +0000",
+      "cooked_chicken": "2025-05-28 21:06:47 +0000",
       "cod": "2025-05-28 20:47:27 +0000"
     },
     "done": false
@@ -379,6 +398,12 @@
   "minecraft:recipes/building_blocks/cobblestone_slab": {
     "criteria": {
       "has_cobblestone": "2025-05-28 20:47:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
+    "criteria": {
+      "has_chicken": "2025-05-28 20:58:15 +0000"
     },
     "done": true
   },
@@ -415,6 +440,12 @@
   "minecraft:story/upgrade_tools": {
     "criteria": {
       "stone_pickaxe": "2025-05-28 20:49:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken": {
+    "criteria": {
+      "has_chicken": "2025-05-28 20:58:15 +0000"
     },
     "done": true
   },
