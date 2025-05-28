@@ -1,0 +1,77 @@
+[00:13:32] [main/INFO]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 37.1.1, --fml.mcVersion, 1.17.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20210706.113038, nogui]
+[00:13:32] [main/INFO]: ModLauncher 9.0.7+91+master.8569cdf starting: java version 17.0.15 by Ubuntu
+[00:13:32] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=union:/workspaces/proyecto-1/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar%2319! Service=ModLauncher Env=SERVER
+[00:13:32] [main/INFO]: Found mod file fmlcore-1.17.1-37.1.1.jar of type LIBRARY with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@3b7ff809
+[00:13:32] [main/INFO]: Found mod file javafmllanguage-1.17.1-37.1.1.jar of type LANGPROVIDER with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@3b7ff809
+[00:13:32] [main/INFO]: Found mod file mclanguage-1.17.1-37.1.1.jar of type LANGPROVIDER with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@3b7ff809
+[00:13:32] [main/INFO]: Found mod file server-1.17.1-20210706.113038-srg.jar of type MOD with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@3b7ff809
+[00:13:32] [main/INFO]: Found mod file forge-1.17.1-37.1.1-universal.jar of type MOD with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@3b7ff809
+[00:13:34] [main/INFO]: Launching target 'forgeserver' with arguments [nogui]
+[00:13:39] [modloading-worker-0/INFO]: Forge mod loading, version 37.1.1, for MC 1.17.1 with MCP 20210706.113038
+[00:13:39] [modloading-worker-0/INFO]: MinecraftForge v37.1.1 Initialized
+[00:13:40] [Forge Version Check/INFO]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[00:13:41] [Forge Version Check/INFO]: [forge] Found status: UP_TO_DATE Current: 37.1.1 Target: null
+[00:13:43] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[00:13:44] [main/WARN]: Assets URL 'union:/workspaces/proyecto-1/servidor_minecraft/libraries/net/minecraft/server/1.17.1-20210706.113038/server-1.17.1-20210706.113038-srg.jar%2326!/assets/.mcassetsroot' uses unexpected schema
+[00:13:44] [main/WARN]: Assets URL 'union:/workspaces/proyecto-1/servidor_minecraft/libraries/net/minecraft/server/1.17.1-20210706.113038/server-1.17.1-20210706.113038-srg.jar%2326!/data/.mcassetsroot' uses unexpected schema
+[00:13:44] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[00:13:44] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[00:13:44] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[00:13:44] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[00:13:44] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[00:13:44] [main/INFO]: Reloading ResourceManager: Default, forge-1.17.1-37.1.1-universal.jar
+[00:13:47] [Worker-Main-6/INFO]: Loaded 7 recipes
+[00:13:49] [Worker-Main-6/INFO]: Loaded 1137 advancements
+[00:13:49] [main/INFO]: Injecting existing registry data into this CLIENT instance
+[00:13:51] [Server thread/INFO]: Starting minecraft server version 1.17.1
+[00:13:51] [Server thread/INFO]: Loading properties
+[00:13:51] [Server thread/INFO]: Default game type: SURVIVAL
+[00:13:51] [Server thread/INFO]: Generating keypair
+[00:13:51] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:13:51] [Server thread/INFO]: Using epoll channel type
+[00:13:51] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[00:13:51] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[00:13:51] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[00:13:51] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[00:13:51] [Server thread/INFO]: Preparing level "world"
+[00:13:51] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[00:13:52] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[00:13:55] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[00:13:55] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[00:13:55] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[00:13:55] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[00:13:55] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[00:13:55] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[00:13:55] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[00:13:55] [Worker-Main-5/INFO]: Preparing spawn area: 1%
+[00:13:56] [Worker-Main-4/INFO]: Preparing spawn area: 61%
+[00:13:56] [Worker-Main-5/INFO]: Preparing spawn area: 68%
+[00:13:57] [Worker-Main-5/INFO]: Preparing spawn area: 69%
+[00:13:57] [Worker-Main-5/INFO]: Preparing spawn area: 71%
+[00:13:58] [Worker-Main-4/INFO]: Preparing spawn area: 78%
+[00:13:58] [Worker-Main-5/INFO]: Preparing spawn area: 82%
+[00:13:59] [Worker-Main-5/INFO]: Preparing spawn area: 83%
+[00:13:59] [Worker-Main-4/INFO]: Preparing spawn area: 83%
+[00:14:00] [Worker-Main-6/INFO]: Preparing spawn area: 85%
+[00:14:00] [Worker-Main-6/INFO]: Preparing spawn area: 86%
+[00:14:01] [Worker-Main-6/INFO]: Preparing spawn area: 89%
+[00:14:01] [Worker-Main-4/INFO]: Preparing spawn area: 92%
+[00:14:02] [Worker-Main-5/INFO]: Preparing spawn area: 96%
+[00:14:02] [Server thread/INFO]: Time elapsed: 10781 ms
+[00:14:02] [Server thread/INFO]: Done (10.978s)! For help, type "help"
+[00:16:54] [Server thread/INFO]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@34495a82
+[00:16:54] [Server thread/INFO]: EickerM14[/100.94.213.4:52463] logged in with entity id 144 at (202.5, 71.0, 176.5)
+[00:16:54] [Server thread/INFO]: EickerM14 joined the game
+[00:19:39] [Server thread/INFO]: Stopping the server
+[00:19:39] [Server thread/INFO]: Stopping server
+[00:19:39] [Server thread/INFO]: Saving players
+[00:19:39] [Server thread/INFO]: EickerM14 lost connection: Server closed
+[00:19:39] [Server thread/INFO]: EickerM14 left the game
+[00:19:39] [Server thread/INFO]: Saving worlds
+[00:19:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[00:19:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[00:19:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[00:19:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:19:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:19:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:19:39] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
