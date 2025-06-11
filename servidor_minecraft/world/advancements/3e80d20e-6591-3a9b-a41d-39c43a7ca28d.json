@@ -297,6 +297,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/brown_banner": {
+    "criteria": {
+      "has_brown_wool": "2025-06-11 21:49:59 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cobblestone_slab": {
     "criteria": {
       "has_cobblestone": "2025-05-28 20:45:47 +0000"
@@ -480,6 +486,12 @@
   "minecraft:recipes/decorations/orange_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2025-06-06 21:50:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_rose_bush": {
+    "criteria": {
+      "has_rose_bush": "2025-06-11 21:50:10 +0000"
     },
     "done": true
   },
@@ -687,7 +699,8 @@
       "minecraft:spider": "2025-05-28 20:40:27 +0000",
       "minecraft:creeper": "2025-05-28 20:56:33 +0000",
       "minecraft:zombie": "2025-05-28 20:38:00 +0000",
-      "minecraft:drowned": "2025-06-11 21:24:33 +0000"
+      "minecraft:drowned": "2025-06-11 21:24:33 +0000",
+      "minecraft:zombie_villager": "2025-06-11 21:53:35 +0000"
     },
     "done": false
   },
@@ -742,6 +755,12 @@
   "minecraft:recipes/building_blocks/spruce_stairs": {
     "criteria": {
       "has_planks": "2025-05-28 20:37:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_bed": {
+    "criteria": {
+      "has_brown_wool": "2025-06-11 21:49:59 +0000"
     },
     "done": true
   },
@@ -1284,7 +1303,8 @@
       "minecraft:forest": "2025-05-28 20:45:22 +0000",
       "minecraft:taiga": "2025-05-28 00:16:55 +0000",
       "minecraft:beach": "2025-05-28 00:18:31 +0000",
-      "minecraft:river": "2025-05-28 20:35:36 +0000"
+      "minecraft:river": "2025-05-28 20:35:36 +0000",
+      "minecraft:wooded_hills": "2025-06-11 21:50:55 +0000"
     },
     "done": false
   },
@@ -1393,6 +1413,12 @@
   "minecraft:recipes/building_blocks/light_gray_stained_glass": {
     "criteria": {
       "has_glass": "2025-06-06 22:07:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_carpet": {
+    "criteria": {
+      "has_brown_wool": "2025-06-11 21:49:59 +0000"
     },
     "done": true
   },
