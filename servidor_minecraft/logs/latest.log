@@ -1,392 +1,383 @@
-[21:19:34] [main/INFO]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 37.1.1, --fml.mcVersion, 1.17.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20210706.113038, nogui]
-[21:19:34] [main/INFO]: ModLauncher 9.0.7+91+master.8569cdf starting: java version 17.0.15 by Ubuntu
-[21:19:34] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=union:/workspaces/proyecto-1/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar%2319! Service=ModLauncher Env=SERVER
-[21:19:35] [main/INFO]: Found mod file fmlcore-1.17.1-37.1.1.jar of type LIBRARY with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@3b7ff809
-[21:19:35] [main/INFO]: Found mod file javafmllanguage-1.17.1-37.1.1.jar of type LANGPROVIDER with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@3b7ff809
-[21:19:35] [main/INFO]: Found mod file mclanguage-1.17.1-37.1.1.jar of type LANGPROVIDER with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@3b7ff809
-[21:19:35] [main/INFO]: Found mod file server-1.17.1-20210706.113038-srg.jar of type MOD with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@3b7ff809
-[21:19:35] [main/INFO]: Found mod file forge-1.17.1-37.1.1-universal.jar of type MOD with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@3b7ff809
-[21:19:37] [main/INFO]: Launching target 'forgeserver' with arguments [nogui]
-[21:19:45] [modloading-worker-0/INFO]: Forge mod loading, version 37.1.1, for MC 1.17.1 with MCP 20210706.113038
-[21:19:45] [modloading-worker-0/INFO]: MinecraftForge v37.1.1 Initialized
-[21:19:46] [Forge Version Check/INFO]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[21:19:48] [Forge Version Check/INFO]: [forge] Found status: UP_TO_DATE Current: 37.1.1 Target: null
-[21:19:50] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[21:19:51] [main/WARN]: Assets URL 'union:/workspaces/proyecto-1/servidor_minecraft/libraries/net/minecraft/server/1.17.1-20210706.113038/server-1.17.1-20210706.113038-srg.jar%2326!/assets/.mcassetsroot' uses unexpected schema
-[21:19:51] [main/WARN]: Assets URL 'union:/workspaces/proyecto-1/servidor_minecraft/libraries/net/minecraft/server/1.17.1-20210706.113038/server-1.17.1-20210706.113038-srg.jar%2326!/data/.mcassetsroot' uses unexpected schema
-[21:19:51] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[21:19:51] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[21:19:51] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[21:19:51] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[21:19:51] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[21:19:51] [main/INFO]: Reloading ResourceManager: Default, forge-1.17.1-37.1.1-universal.jar
-[21:19:54] [Worker-Main-6/INFO]: Loaded 7 recipes
-[21:19:57] [Worker-Main-6/INFO]: Loaded 1137 advancements
-[21:19:58] [main/INFO]: Injecting existing registry data into this CLIENT instance
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:barley
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:black_sand
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:black_sandstone
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:black_sandstone_slab
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:black_sandstone_stairs
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:black_sandstone_wall
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:blackstone_bulb
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:blackstone_spines
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:blood
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:blue_hydrangea
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:bramble
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:brimstone
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:brimstone_bud
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:brimstone_cluster
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:brimstone_fumarole
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:burning_blossom
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:bush
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:cattail
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:cherry_button
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:cherry_door
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:cherry_fence
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:cherry_fence_gate
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:cherry_log
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:cherry_planks
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:cherry_pressure_plate
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:cherry_slab
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:cherry_stairs
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:cherry_trapdoor
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:cherry_wood
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:chiseled_black_sandstone
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:chiseled_orange_sandstone
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:chiseled_white_sandstone
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:clover
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:cut_black_sandstone
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:cut_black_sandstone_slab
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:cut_orange_sandstone
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:cut_orange_sandstone_slab
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:cut_white_sandstone
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:cut_white_sandstone_slab
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:dead_branch
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:dead_button
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:dead_door
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:dead_fence
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:dead_fence_gate
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:dead_grass
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:dead_leaves
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:dead_log
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:dead_planks
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:dead_pressure_plate
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:dead_sapling
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:dead_slab
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:dead_stairs
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:dead_trapdoor
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:dead_wood
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:desert_grass
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:dried_salt
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:dune_grass
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:fir_button
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:fir_door
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:fir_fence
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:fir_fence_gate
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:fir_leaves
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:fir_log
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:fir_planks
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:fir_pressure_plate
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:fir_sapling
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:fir_slab
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:fir_stairs
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:fir_trapdoor
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:fir_wood
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:flesh
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:flesh_tendons
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:flesh_tendons_strand
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:flowering_oak_leaves
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:flowering_oak_sapling
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:glowflower
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:glowing_moss_block
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:glowing_moss_carpet
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:glowshroom
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:glowshroom_block
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:glowworm_silk
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:glowworm_silk_strand
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:goldenrod
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:hair
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:hanging_cobweb
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:hanging_cobweb_strand
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:hellbark_button
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:hellbark_door
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:hellbark_fence
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:hellbark_fence_gate
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:hellbark_leaves
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:hellbark_log
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:hellbark_planks
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:hellbark_pressure_plate
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:hellbark_sapling
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:hellbark_slab
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:hellbark_stairs
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:hellbark_trapdoor
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:hellbark_wood
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:huge_clover_petal
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:jacaranda_button
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:jacaranda_door
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:jacaranda_fence
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:jacaranda_fence_gate
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:jacaranda_leaves
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:jacaranda_log
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:jacaranda_planks
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:jacaranda_pressure_plate
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:jacaranda_sapling
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:jacaranda_slab
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:jacaranda_stairs
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:jacaranda_trapdoor
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:jacaranda_wood
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:large_rose_quartz_bud
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:lavender
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:magic_button
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:magic_door
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:magic_fence
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:magic_fence_gate
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:magic_leaves
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:magic_log
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:magic_planks
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:magic_pressure_plate
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:magic_sapling
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:magic_slab
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:magic_stairs
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:magic_trapdoor
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:magic_wood
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:mahogany_button
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:mahogany_door
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:mahogany_fence
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:mahogany_fence_gate
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:mahogany_leaves
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:mahogany_log
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:mahogany_planks
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:mahogany_pressure_plate
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:mahogany_sapling
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:mahogany_slab
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:mahogany_stairs
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:mahogany_trapdoor
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:mahogany_wood
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:mangrove_root
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:maple_leaves
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:maple_sapling
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:medium_rose_quartz_bud
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:mud
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:mud_brick_slab
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:mud_brick_stairs
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:mud_brick_wall
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:mud_bricks
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:orange_autumn_leaves
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:orange_autumn_sapling
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:orange_cosmos
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:orange_sand
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:orange_sandstone
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:orange_sandstone_slab
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:orange_sandstone_stairs
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:orange_sandstone_wall
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:origin_grass_block
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:origin_leaves
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:origin_sapling
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:palm_button
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:palm_door
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:palm_fence
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:palm_fence_gate
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:palm_leaves
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:palm_log
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:palm_planks
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:palm_pressure_plate
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:palm_sapling
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:palm_slab
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:palm_stairs
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:palm_trapdoor
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:palm_wood
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:pink_cherry_leaves
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:pink_cherry_sapling
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:pink_daffodil
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:pink_hibiscus
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:porous_flesh
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:potted_burning_blossom
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:potted_clover
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:potted_dead_sapling
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:potted_fir_sapling
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:potted_flowering_oak_sapling
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:potted_glowflower
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:potted_glowshroom
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:potted_hellbark_sapling
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:potted_jacaranda_sapling
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:potted_lavender
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:potted_magic_sapling
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:potted_mahogany_sapling
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:potted_maple_sapling
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:potted_orange_autumn_sapling
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:potted_orange_cosmos
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:potted_origin_sapling
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:potted_palm_sapling
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:potted_pink_cherry_sapling
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:potted_pink_daffodil
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:potted_pink_hibiscus
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:potted_rainbow_birch_sapling
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:potted_redwood_sapling
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:potted_rose
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:potted_sprout
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:potted_toadstool
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:potted_umbran_sapling
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:potted_violet
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:potted_white_cherry_sapling
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:potted_wildflower
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:potted_willow_sapling
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:potted_wilted_lily
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:potted_yellow_autumn_sapling
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:pus_bubble
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:rainbow_birch_leaves
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:rainbow_birch_sapling
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:redwood_button
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:redwood_door
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:redwood_fence
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:redwood_fence_gate
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:redwood_leaves
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:redwood_log
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:redwood_planks
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:redwood_pressure_plate
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:redwood_sapling
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:redwood_slab
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:redwood_stairs
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:redwood_trapdoor
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:redwood_wood
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:reed
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:rooted_sand
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:rose
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:rose_quartz_block
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:rose_quartz_cluster
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:sea_oats
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:small_rose_quartz_bud
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:smooth_black_sandstone
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:smooth_black_sandstone_slab
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:smooth_black_sandstone_stairs
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:smooth_orange_sandstone
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:smooth_orange_sandstone_slab
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:smooth_orange_sandstone_stairs
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:smooth_white_sandstone
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:smooth_white_sandstone_slab
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:smooth_white_sandstone_stairs
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:spanish_moss
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:spanish_moss_plant
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:spider_egg
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:sprout
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:stripped_cherry_log
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:stripped_cherry_wood
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:stripped_dead_log
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:stripped_dead_wood
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:stripped_fir_log
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:stripped_fir_wood
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:stripped_hellbark_log
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:stripped_hellbark_wood
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:stripped_jacaranda_log
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:stripped_jacaranda_wood
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:stripped_magic_log
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:stripped_magic_wood
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:stripped_mahogany_log
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:stripped_mahogany_wood
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:stripped_palm_log
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:stripped_palm_wood
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:stripped_redwood_log
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:stripped_redwood_wood
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:stripped_umbran_log
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:stripped_umbran_wood
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:stripped_willow_log
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:stripped_willow_wood
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:toadstool
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:toadstool_block
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:tree_roots
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:tree_roots_stem
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:umbran_button
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:umbran_door
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:umbran_fence
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:umbran_fence_gate
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:umbran_leaves
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:umbran_log
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:umbran_planks
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:umbran_pressure_plate
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:umbran_sapling
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:umbran_slab
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:umbran_stairs
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:umbran_trapdoor
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:umbran_wood
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:violet
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:watergrass
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:webbing
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:white_cherry_leaves
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:white_cherry_sapling
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:white_sand
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:white_sandstone
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:white_sandstone_slab
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:white_sandstone_stairs
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:white_sandstone_wall
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:wildflower
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:willow_button
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:willow_door
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:willow_fence
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:willow_fence_gate
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:willow_leaves
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:willow_log
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:willow_planks
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:willow_pressure_plate
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:willow_sapling
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:willow_slab
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:willow_stairs
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:willow_trapdoor
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:willow_vine
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:willow_wood
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:wilted_lily
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:yellow_autumn_leaves
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:yellow_autumn_sapling
-[21:19:58] [main/INFO]: Registry minecraft:block: Found a missing id from the world gravestone:gravestone
-[21:19:59] [main/INFO]: Registry minecraft:block: Found a missing id from the world sophisticatedbackpacks:backpack
-[21:19:59] [main/INFO]: Registry minecraft:block: Found a missing id from the world sophisticatedbackpacks:diamond_backpack
-[21:19:59] [main/INFO]: Registry minecraft:block: Found a missing id from the world sophisticatedbackpacks:gold_backpack
-[21:19:59] [main/INFO]: Registry minecraft:block: Found a missing id from the world sophisticatedbackpacks:iron_backpack
-[21:19:59] [main/INFO]: Registry minecraft:block: Found a missing id from the world sophisticatedbackpacks:netherite_backpack
-[21:20:00] [Server thread/INFO]: Starting minecraft server version 1.17.1
-[21:20:00] [Server thread/INFO]: Loading properties
-[21:20:00] [Server thread/INFO]: Default game type: SURVIVAL
-[21:20:00] [Server thread/INFO]: Generating keypair
-[21:20:00] [Server thread/INFO]: Starting Minecraft server on *:25565
-[21:20:00] [Server thread/INFO]: Using epoll channel type
-[21:20:00] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[21:20:00] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[21:20:00] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[21:20:00] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[21:20:00] [Server thread/INFO]: Preparing level "world"
-[21:20:01] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[21:20:01] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[21:20:01] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[21:20:02] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[21:20:02] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[21:20:03] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[21:20:03] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[21:20:04] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[21:20:09] [Worker-Main-4/INFO]: Preparing spawn area: 1%
-[21:20:09] [Worker-Main-6/INFO]: Preparing spawn area: 1%
-[21:20:09] [Worker-Main-6/INFO]: Preparing spawn area: 1%
-[21:20:09] [Worker-Main-6/INFO]: Preparing spawn area: 1%
-[21:20:09] [Worker-Main-6/INFO]: Preparing spawn area: 1%
-[21:20:09] [Worker-Main-6/INFO]: Preparing spawn area: 1%
-[21:20:09] [Worker-Main-6/INFO]: Preparing spawn area: 1%
-[21:20:09] [Worker-Main-5/INFO]: Preparing spawn area: 1%
-[21:20:09] [Worker-Main-5/INFO]: Preparing spawn area: 1%
-[21:20:09] [Worker-Main-5/INFO]: Preparing spawn area: 1%
-[21:20:09] [Worker-Main-6/INFO]: Preparing spawn area: 2%
-[21:20:10] [Worker-Main-6/INFO]: Preparing spawn area: 13%
-[21:20:10] [Worker-Main-5/INFO]: Preparing spawn area: 28%
-[21:20:11] [Worker-Main-4/INFO]: Preparing spawn area: 52%
-[21:20:11] [Worker-Main-6/INFO]: Preparing spawn area: 93%
-[21:20:12] [Server thread/INFO]: Time elapsed: 10897 ms
-[21:20:12] [Server thread/INFO]: Done (11.291s)! For help, type "help"
-[21:20:24] [Server thread/INFO]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@3c5ca365
-[21:20:24] [Server thread/INFO]: EickerM14[/127.110.250.0:33407] logged in with entity id 35 at (-341.60631009808645, 69.0, 231.09724445075332)
-[21:20:24] [Server thread/INFO]: EickerM14 joined the game
-[21:20:30] [Server thread/INFO]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@20694f53
-[21:20:30] [Server thread/INFO]: Edmy19[/127.24.205.114:52215] logged in with entity id 216 at (-286.1154645790936, 72.0, 303.86999924105726)
-[21:20:30] [Server thread/INFO]: Edmy19 joined the game
-[21:20:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2040ms or 40 ticks behind
-[21:36:57] [Server thread/INFO]: Edmy19 has made the advancement [Isn't It Iron Pick]
-[22:03:52] [Server thread/INFO]: EickerM14 has made the advancement [Suit Up]
-[22:04:13] [Server thread/INFO]: Edmy19 has made the advancement [Suit Up]
-[22:23:30] [Server thread/INFO]: Edmy19 fell from a high place
+[23:28:49] [main/INFO]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 37.1.1, --fml.mcVersion, 1.17.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20210706.113038, nogui]
+[23:28:49] [main/INFO]: ModLauncher 9.0.7+91+master.8569cdf starting: java version 17.0.15 by Ubuntu
+[23:28:49] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=union:/workspaces/proyecto-1/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar%2319! Service=ModLauncher Env=SERVER
+[23:28:50] [main/INFO]: Found mod file fmlcore-1.17.1-37.1.1.jar of type LIBRARY with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@3b7ff809
+[23:28:50] [main/INFO]: Found mod file javafmllanguage-1.17.1-37.1.1.jar of type LANGPROVIDER with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@3b7ff809
+[23:28:50] [main/INFO]: Found mod file mclanguage-1.17.1-37.1.1.jar of type LANGPROVIDER with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@3b7ff809
+[23:28:50] [main/INFO]: Found mod file server-1.17.1-20210706.113038-srg.jar of type MOD with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@3b7ff809
+[23:28:50] [main/INFO]: Found mod file forge-1.17.1-37.1.1-universal.jar of type MOD with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@3b7ff809
+[23:28:52] [main/INFO]: Launching target 'forgeserver' with arguments [nogui]
+[23:28:59] [modloading-worker-0/INFO]: Forge mod loading, version 37.1.1, for MC 1.17.1 with MCP 20210706.113038
+[23:28:59] [modloading-worker-0/INFO]: MinecraftForge v37.1.1 Initialized
+[23:29:00] [Forge Version Check/INFO]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[23:29:02] [Forge Version Check/INFO]: [forge] Found status: UP_TO_DATE Current: 37.1.1 Target: null
+[23:29:05] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[23:29:05] [main/WARN]: Assets URL 'union:/workspaces/proyecto-1/servidor_minecraft/libraries/net/minecraft/server/1.17.1-20210706.113038/server-1.17.1-20210706.113038-srg.jar%2326!/assets/.mcassetsroot' uses unexpected schema
+[23:29:05] [main/WARN]: Assets URL 'union:/workspaces/proyecto-1/servidor_minecraft/libraries/net/minecraft/server/1.17.1-20210706.113038/server-1.17.1-20210706.113038-srg.jar%2326!/data/.mcassetsroot' uses unexpected schema
+[23:29:06] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[23:29:06] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[23:29:06] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[23:29:06] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[23:29:06] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[23:29:06] [main/INFO]: Reloading ResourceManager: Default, forge-1.17.1-37.1.1-universal.jar
+[23:29:08] [Worker-Main-6/INFO]: Loaded 7 recipes
+[23:29:10] [Worker-Main-6/INFO]: Loaded 1137 advancements
+[23:29:13] [main/INFO]: Injecting existing registry data into this CLIENT instance
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:barley
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:black_sand
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:black_sandstone
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:black_sandstone_slab
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:black_sandstone_stairs
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:black_sandstone_wall
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:blackstone_bulb
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:blackstone_spines
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:blood
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:blue_hydrangea
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:bramble
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:brimstone
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:brimstone_bud
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:brimstone_cluster
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:brimstone_fumarole
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:burning_blossom
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:bush
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:cattail
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:cherry_button
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:cherry_door
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:cherry_fence
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:cherry_fence_gate
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:cherry_log
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:cherry_planks
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:cherry_pressure_plate
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:cherry_slab
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:cherry_stairs
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:cherry_trapdoor
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:cherry_wood
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:chiseled_black_sandstone
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:chiseled_orange_sandstone
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:chiseled_white_sandstone
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:clover
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:cut_black_sandstone
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:cut_black_sandstone_slab
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:cut_orange_sandstone
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:cut_orange_sandstone_slab
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:cut_white_sandstone
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:cut_white_sandstone_slab
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:dead_branch
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:dead_button
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:dead_door
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:dead_fence
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:dead_fence_gate
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:dead_grass
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:dead_leaves
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:dead_log
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:dead_planks
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:dead_pressure_plate
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:dead_sapling
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:dead_slab
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:dead_stairs
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:dead_trapdoor
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:dead_wood
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:desert_grass
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:dried_salt
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:dune_grass
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:fir_button
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:fir_door
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:fir_fence
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:fir_fence_gate
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:fir_leaves
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:fir_log
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:fir_planks
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:fir_pressure_plate
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:fir_sapling
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:fir_slab
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:fir_stairs
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:fir_trapdoor
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:fir_wood
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:flesh
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:flesh_tendons
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:flesh_tendons_strand
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:flowering_oak_leaves
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:flowering_oak_sapling
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:glowflower
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:glowing_moss_block
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:glowing_moss_carpet
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:glowshroom
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:glowshroom_block
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:glowworm_silk
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:glowworm_silk_strand
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:goldenrod
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:hair
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:hanging_cobweb
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:hanging_cobweb_strand
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:hellbark_button
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:hellbark_door
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:hellbark_fence
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:hellbark_fence_gate
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:hellbark_leaves
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:hellbark_log
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:hellbark_planks
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:hellbark_pressure_plate
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:hellbark_sapling
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:hellbark_slab
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:hellbark_stairs
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:hellbark_trapdoor
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:hellbark_wood
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:huge_clover_petal
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:jacaranda_button
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:jacaranda_door
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:jacaranda_fence
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:jacaranda_fence_gate
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:jacaranda_leaves
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:jacaranda_log
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:jacaranda_planks
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:jacaranda_pressure_plate
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:jacaranda_sapling
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:jacaranda_slab
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:jacaranda_stairs
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:jacaranda_trapdoor
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:jacaranda_wood
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:large_rose_quartz_bud
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:lavender
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:magic_button
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:magic_door
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:magic_fence
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:magic_fence_gate
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:magic_leaves
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:magic_log
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:magic_planks
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:magic_pressure_plate
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:magic_sapling
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:magic_slab
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:magic_stairs
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:magic_trapdoor
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:magic_wood
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:mahogany_button
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:mahogany_door
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:mahogany_fence
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:mahogany_fence_gate
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:mahogany_leaves
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:mahogany_log
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:mahogany_planks
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:mahogany_pressure_plate
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:mahogany_sapling
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:mahogany_slab
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:mahogany_stairs
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:mahogany_trapdoor
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:mahogany_wood
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:mangrove_root
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:maple_leaves
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:maple_sapling
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:medium_rose_quartz_bud
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:mud
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:mud_brick_slab
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:mud_brick_stairs
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:mud_brick_wall
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:mud_bricks
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:orange_autumn_leaves
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:orange_autumn_sapling
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:orange_cosmos
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:orange_sand
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:orange_sandstone
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:orange_sandstone_slab
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:orange_sandstone_stairs
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:orange_sandstone_wall
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:origin_grass_block
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:origin_leaves
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:origin_sapling
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:palm_button
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:palm_door
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:palm_fence
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:palm_fence_gate
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:palm_leaves
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:palm_log
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:palm_planks
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:palm_pressure_plate
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:palm_sapling
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:palm_slab
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:palm_stairs
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:palm_trapdoor
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:palm_wood
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:pink_cherry_leaves
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:pink_cherry_sapling
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:pink_daffodil
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:pink_hibiscus
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:porous_flesh
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:potted_burning_blossom
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:potted_clover
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:potted_dead_sapling
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:potted_fir_sapling
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:potted_flowering_oak_sapling
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:potted_glowflower
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:potted_glowshroom
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:potted_hellbark_sapling
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:potted_jacaranda_sapling
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:potted_lavender
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:potted_magic_sapling
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:potted_mahogany_sapling
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:potted_maple_sapling
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:potted_orange_autumn_sapling
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:potted_orange_cosmos
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:potted_origin_sapling
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:potted_palm_sapling
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:potted_pink_cherry_sapling
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:potted_pink_daffodil
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:potted_pink_hibiscus
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:potted_rainbow_birch_sapling
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:potted_redwood_sapling
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:potted_rose
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:potted_sprout
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:potted_toadstool
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:potted_umbran_sapling
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:potted_violet
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:potted_white_cherry_sapling
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:potted_wildflower
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:potted_willow_sapling
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:potted_wilted_lily
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:potted_yellow_autumn_sapling
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:pus_bubble
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:rainbow_birch_leaves
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:rainbow_birch_sapling
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:redwood_button
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:redwood_door
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:redwood_fence
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:redwood_fence_gate
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:redwood_leaves
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:redwood_log
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:redwood_planks
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:redwood_pressure_plate
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:redwood_sapling
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:redwood_slab
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:redwood_stairs
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:redwood_trapdoor
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:redwood_wood
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:reed
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:rooted_sand
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:rose
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:rose_quartz_block
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:rose_quartz_cluster
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:sea_oats
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:small_rose_quartz_bud
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:smooth_black_sandstone
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:smooth_black_sandstone_slab
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:smooth_black_sandstone_stairs
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:smooth_orange_sandstone
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:smooth_orange_sandstone_slab
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:smooth_orange_sandstone_stairs
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:smooth_white_sandstone
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:smooth_white_sandstone_slab
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:smooth_white_sandstone_stairs
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:spanish_moss
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:spanish_moss_plant
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:spider_egg
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:sprout
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:stripped_cherry_log
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:stripped_cherry_wood
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:stripped_dead_log
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:stripped_dead_wood
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:stripped_fir_log
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:stripped_fir_wood
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:stripped_hellbark_log
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:stripped_hellbark_wood
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:stripped_jacaranda_log
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:stripped_jacaranda_wood
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:stripped_magic_log
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:stripped_magic_wood
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:stripped_mahogany_log
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:stripped_mahogany_wood
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:stripped_palm_log
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:stripped_palm_wood
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:stripped_redwood_log
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:stripped_redwood_wood
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:stripped_umbran_log
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:stripped_umbran_wood
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:stripped_willow_log
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:stripped_willow_wood
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:toadstool
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:toadstool_block
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:tree_roots
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:tree_roots_stem
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:umbran_button
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:umbran_door
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:umbran_fence
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:umbran_fence_gate
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:umbran_leaves
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:umbran_log
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:umbran_planks
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:umbran_pressure_plate
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:umbran_sapling
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:umbran_slab
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:umbran_stairs
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:umbran_trapdoor
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:umbran_wood
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:violet
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:watergrass
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:webbing
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:white_cherry_leaves
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:white_cherry_sapling
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:white_sand
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:white_sandstone
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:white_sandstone_slab
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:white_sandstone_stairs
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:white_sandstone_wall
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:wildflower
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:willow_button
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:willow_door
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:willow_fence
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:willow_fence_gate
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:willow_leaves
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:willow_log
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:willow_planks
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:willow_pressure_plate
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:willow_sapling
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:willow_slab
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:willow_stairs
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:willow_trapdoor
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:willow_vine
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:willow_wood
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:wilted_lily
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:yellow_autumn_leaves
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world biomesoplenty:yellow_autumn_sapling
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world gravestone:gravestone
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world sophisticatedbackpacks:backpack
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world sophisticatedbackpacks:diamond_backpack
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world sophisticatedbackpacks:gold_backpack
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world sophisticatedbackpacks:iron_backpack
+[23:29:13] [main/INFO]: Registry minecraft:block: Found a missing id from the world sophisticatedbackpacks:netherite_backpack
+[23:29:14] [Server thread/INFO]: Starting minecraft server version 1.17.1
+[23:29:14] [Server thread/INFO]: Loading properties
+[23:29:14] [Server thread/INFO]: Default game type: SURVIVAL
+[23:29:14] [Server thread/INFO]: Generating keypair
+[23:29:15] [Server thread/INFO]: Starting Minecraft server on *:25565
+[23:29:15] [Server thread/INFO]: Using epoll channel type
+[23:29:15] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[23:29:15] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[23:29:15] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[23:29:15] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[23:29:15] [Server thread/INFO]: Preparing level "world"
+[23:29:15] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[23:29:16] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[23:29:16] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[23:29:16] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[23:29:17] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[23:29:17] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[23:29:22] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[23:29:22] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[23:29:22] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[23:29:22] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[23:29:22] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[23:29:22] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[23:29:22] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[23:29:22] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[23:29:22] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[23:29:22] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[23:29:23] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[23:29:23] [Worker-Main-4/INFO]: Preparing spawn area: 11%
+[23:29:24] [Worker-Main-6/INFO]: Preparing spawn area: 30%
+[23:29:24] [Worker-Main-6/INFO]: Preparing spawn area: 56%
+[23:29:25] [Worker-Main-4/INFO]: Preparing spawn area: 87%
+[23:29:25] [Worker-Main-4/INFO]: Preparing spawn area: 99%
+[23:29:26] [Server thread/INFO]: Time elapsed: 10303 ms
+[23:29:26] [Server thread/INFO]: Done (10.610s)! For help, type "help"
+[23:30:09] [Server thread/INFO]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@262eb89c
+[23:30:09] [Server thread/INFO]: EickerM14[/127.110.250.0:59833] logged in with entity id 35 at (-345.5, 69.0, 233.5)
+[23:30:09] [Server thread/INFO]: EickerM14 joined the game
